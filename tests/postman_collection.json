@@ -1,0 +1,123 @@
+{
+    "info": {
+      "name": "Expense Tracker API",
+      "_postman_id": "expense-tracker-api",
+      "description": "Postman collection for Expense Tracker API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get All Expenses",
+        "request": {
+          "method": "GET",
+          "url": {
+            "raw": "http://localhost:3000/api/expenses",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "api",
+              "expenses"
+            ]
+          }
+        }
+      },
+      {
+        "name": "Get Expense By ID",
+        "request": {
+          "method": "GET",
+          "url": {
+            "raw": "http://localhost:3000/api/expenses/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "api",
+              "expenses",
+              "1"
+            ]
+          }
+        }
+      },
+      {
+        "name": "Create Expense",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"title\": \"Transport\",\n  \"amount\": 1500,\n  \"category\": \"Travel\",\n  \"date\": \"2026-07-21\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/expenses",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "api",
+              "expenses"
+            ]
+          }
+        }
+      },
+      {
+        "name": "Update Expense",
+        "request": {
+          "method": "PUT",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"title\": \"Updated Transport\",\n  \"amount\": 2000,\n  \"category\": \"Travel\",\n  \"date\": \"2026-07-21\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/expenses/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "api",
+              "expenses",
+              "1"
+            ]
+          }
+        }
+      },
+      {
+        "name": "Delete Expense",
+        "request": {
+          "method": "DELETE",
+          "url": {
+            "raw": "http://localhost:3000/api/expenses/1",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "3000",
+            "path": [
+              "api",
+              "expenses",
+              "1"
+            ]
+          }
+        }
+      }
+    ]
+  }
