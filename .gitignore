@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 node_modules/
 package-lock.json
 .env--
+=======
+package.json
+>>>>>>> origin/theophilusBekoe
