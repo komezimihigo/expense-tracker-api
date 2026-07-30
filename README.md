@@ -128,7 +128,7 @@ Contains the Postman Collection used for testing all API endpoints.
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/komezimihigo/expense-tracker-api.git
 ```
 
 ---
@@ -485,20 +485,6 @@ MAX_EXPENSE_LIMIT
 - Search Expenses
 - Pagination
 
----
-
-# Contributors
-
-Group 3A
-
-- Komezimihigo Emmanuel
-- Micko Igbo
-- MUGOZI GLOIRE
-- Dave Adedokun
-- Jaire Nkhoma
-- Marfo Thomas
-- Wonderful Okonoboh
-- Fatmatta Mamadi Ceesay
 
 ---
 
