@@ -136,7 +136,7 @@ git clone https://github.com/komezimihigo/expense-tracker-api.git
 ## 2. Navigate into the project
 
 ```bash
-cd expense-tracker
+cd expense-tracker-api
 ```
 
 ---
