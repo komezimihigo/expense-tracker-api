@@ -1,4 +1,4 @@
-Expense Tracker API
+# Expense Tracker API
 
 Project Overview
 
@@ -31,40 +31,6 @@ Technologies Used
 - JavaScript (ES6)
 - Postman
 - Git & GitHub
-
-
-
-Project Structure
-
-expense-tracker/
-│
-├── data/
-│   └── expenses.js
-│
-├── controllers/
-│   └── expenseController.js
-│
-├── routes/
-│   └── expenseRoutes.js
-│
-├── middleware/
-│   ├── validateExpense.js
-│   └── errorHandler.js
-│
-├── utils/
-│   └── generateId.js
-│
-├── tests/
-│   └── postman_collection.json
-│
-├── app.js
-├── server.js
-├── package.json
-├── .env
-├── .gitignore
-└── README.md
-
-
 
 Folder Explanation
 
